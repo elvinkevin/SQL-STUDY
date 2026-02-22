@@ -1,6 +1,6 @@
 CREATE TABLE country (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
-    location VARCHAR(30) NOT NULL
+    location CHAR(30) NOT NULl
 );
 
 CREATE TABLE stores (
