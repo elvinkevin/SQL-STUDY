@@ -7,6 +7,7 @@ This repository contains a professional-grade relational database schema designe
 The system manages complex business logic, including multi-branch operations, product inventory, and transaction tracking, all while maintaining strict data integrity protocols.
 
 **Key Engineering & Security Achievements**
+
 1. Security-First Architecture:Designed with a focus on data protection, utilizing `password_hash` protocols to advocate        for BCRYPT/Argon2 encryption over vulnerable plain-text storage.
 2. Modular Migration Strategy:Implemented a versioned build process (v1–v9), mirroring real-world DevSecOps workflows for       controlled schema deployment.
 3. Identity & Integrity:used `BIGINT` and `GENERATED ALWAYS AS IDENTITY` to ensure high-performance primary keys that are       resistant to sequence manipulation.
@@ -16,24 +17,9 @@ The system manages complex business logic, including multi-branch operations, pr
 
 
  File Structure & Execution Order
-To ensure the integrity of the Foreign Keys and prevent any errors from occurring, the SQL scripts must be executed in the numerical order listed below:
-
-
-
-Order       File Name                    Purpose
-
-1        v1_core_tables.sql        Base infrastructure and lookup tables.
-2        v2_admin_tables.sql       Organizational hierarchy (Branches/Depts).
-3        v3_accounts_table.sql     User accounts and secure credential storage.
-4        v4_functionality.sql      Internal system logs and utilities.
-5        v5_products_tables.sql    Inventory, categories, and stock management.
-6        v6_orders_tables.sql      Transactional data and cart logic.
-7        v7_payments_table.sql     Payment methods and billing history.
-8        v8_deliveries_tables.sql  Logistics tracking and carrier details.
-9        v9_reviews.sql            Customer sentiment and feedback data.
-
+To ensure the integrity of the Foreign Keys and prevent any errors from occurring, the SQL scripts must be executed in the numerical order listed below in this file-
+[versioning_table.docx](https://github.com/user-attachments/files/25542592/versioning_table.docx)
 -Run the jumia_db_seed.sql Populate the system with realistic test data.
-
 
 **Technical Specifications**
 -DBMS:PostgreSQL
@@ -43,6 +29,7 @@ Primary Keys:BIGINT (Identity)
 Documentation:Included `jumia_ERD_versions for full Entity Relationship Diagram (ERD) mapping.
 
 How to Setup & Test
+
 1.  Clone the Repository:
     bash
     git clone https://github.com/elvinkevin/SQL-STUDY.git
