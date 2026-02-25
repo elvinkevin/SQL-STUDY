@@ -1,6 +1,7 @@
 Jumia DB: Secure E-Commerce Database System
 -
 Project Overview
+
 This repository contains a professional-grade relational database schema designed for a Jumia-style e-commerce platform. Developed by Kevin Axel,the project bridges the gap between Software Development and Cybersecurity by implementing a modular, secure-by-design database architecture.
 
 The system manages complex business logic, including multi-branch operations, product inventory, and transaction tracking, all while maintaining strict data integrity protocols.
@@ -30,9 +31,9 @@ Order       File Name                    Purpose
 7        v7_payments_table.sql     Payment methods and billing history.
 8        v8_deliveries_tables.sql  Logistics tracking and carrier details.
 9        v9_reviews.sql            Customer sentiment and feedback data.
--
----Run the jumia_db_seed.sql Populate the system with realistic test data.
--
+
+-Run the jumia_db_seed.sql Populate the system with realistic test data.
+
 
 **Technical Specifications**
 -DBMS:PostgreSQL
@@ -45,7 +46,7 @@ How to Setup & Test
 1.  Clone the Repository:
     bash
     git clone https://github.com/elvinkevin/SQL-STUDY.git
-    -
+    
 2.  Initialize the Schema:
     Open your SQL tool (DBeaver, pgAdmin, or PSQL) and run files **v1 through v9** in sequence.
 3.  Seed the Database:
@@ -54,5 +55,5 @@ How to Setup & Test
 Author
 Kevin Axel
 Specialization:Software Development & Cybersecurity.
--
+
 
