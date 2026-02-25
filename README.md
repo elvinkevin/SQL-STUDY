@@ -13,8 +13,6 @@ The system manages complex business logic, including multi-branch operations, pr
 3. Identity & Integrity:used `BIGINT` and `GENERATED ALWAYS AS IDENTITY` to ensure high-performance primary keys that are       resistant to sequence manipulation.
 4. Scalable Organizational Logic:Engineered a Junction-Table system for Branch-to-Department mapping and another one for        vendors to products mapping, allowing national-scale scaling without data redundancy.
 5. Relational Mapping:Mapped complex Many-to-Many relationships for logistics, payments, and delivery tracking.
--
-
 
  File Structure & Execution Order
  
