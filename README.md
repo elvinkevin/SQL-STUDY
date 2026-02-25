@@ -17,16 +17,19 @@ The system manages complex business logic, including multi-branch operations, pr
 
 
  File Structure & Execution Order
+ 
 To ensure the integrity of the Foreign Keys and prevent any errors from occurring, the SQL scripts must be executed in the numerical order listed below in this file-
+
 [versioning_table.docx](https://github.com/user-attachments/files/25542592/versioning_table.docx)
+
 -Run the jumia_db_seed.sql Populate the system with realistic test data.
 
 **Technical Specifications**
 -DBMS:PostgreSQL
 -Security Focus:Hashed Credential Mapping & Least Privilege Design
-Data Architecture:3rd Normal Form (3NF)
-Primary Keys:BIGINT (Identity)
-Documentation:Included `jumia_ERD_versions for full Entity Relationship Diagram (ERD) mapping.
+-Data Architecture:3rd Normal Form (3NF)
+-Primary Keys:BIGINT (Identity)
+-Documentation:Included `jumia_ERD_versions for full Entity Relationship Diagram (ERD) mapping.
 
 How to Setup & Test
 
