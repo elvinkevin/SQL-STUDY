@@ -23,10 +23,15 @@ To ensure the integrity of the Foreign Keys and prevent any errors from occurrin
 -Run the jumia_db_seed.sql Populate the system with realistic test data.
 
 **Technical Specifications**
+
 -DBMS:PostgreSQL
+
 -Security Focus:Hashed Credential Mapping & Least Privilege Design
+
 -Data Architecture:3rd Normal Form (3NF)
+
 -Primary Keys:BIGINT (Identity)
+
 -Documentation:Included `jumia_ERD_versions for full Entity Relationship Diagram (ERD) mapping.
 
 How to Setup & Test
@@ -36,12 +41,17 @@ How to Setup & Test
     git clone https://github.com/elvinkevin/SQL-STUDY.git
     
 2.  Initialize the Schema:
+3.  
     Open your SQL tool (DBeaver, pgAdmin, or PSQL) and run files **v1 through v9** in sequence.
-3.  Seed the Database:
+    
+5.  Seed the Database:
+6.  
     Execute 'jumia_db_seed.sql' to generate realistic customers, products, and orders for testing.
 
 Author
+
 Kevin Axel
+
 Specialization:Software Development & Cybersecurity.
 
 
